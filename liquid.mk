@@ -3,9 +3,6 @@ $(call inherit-product, device/samsung/d2usc/full_d2usc.mk)
 # Telephony
 $(call inherit-product, vendor/liquid/config/common_cdma.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
-
 # Phone
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
