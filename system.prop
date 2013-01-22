@@ -5,14 +5,11 @@ windowsmgr.max_events_per_sec=275
 ## cannot take spaces
 rild.libargs=-d /dev/smd0
 
-# cannot take spaces
-rild.libargs=-d /dev/smd0
-
-# Fields for custom RIL
-# MAX PROP NAME is 31 chars --|
+# Fields For Custom RIL
 ro.telephony.ril_class=SamsungCDMAQualcommRIL
 ro.cdma.home.operator.alpha=U.S.Cellular
 ro.cdma.home.operator.numeric=311220
+ro.config.qc_lte_network_modes=true
 ro.telephony.default_network=8
 telephony.lteOnCdmaDevice=1
 
