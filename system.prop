@@ -5,13 +5,28 @@ windowsmgr.max_events_per_sec=275
 ## cannot take spaces
 rild.libargs=-d /dev/smd0
 
-# Fields For Custom RIL
+# Fields for custom RIL
+# MAX PROP NAME is 31 chars --|
 ro.telephony.ril_class=SamsungCDMAQualcommRIL
-ro.cdma.home.operator.alpha=U.S.Cellular
 ro.cdma.home.operator.numeric=311220
-ro.config.qc_lte_network_modes=true
+ro.cdma.home.operator.alpha=U.S.Cellular
+ro.cdma.subscribe_on_ruim_ready=true
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
 ro.telephony.default_network=8
+keyguard.no_require_sim=true
+DEVICE_PROVISIONED=1
 telephony.lteOnCdmaDevice=1
+ro.config.svlte1x=true
+persist.radio.no_wait_for_card=1
+
+# hardware info
+ro.device.chipset=Qualcomm Snapdragon S4 MSM8960
+ro.device.cpu=1.5 GHz dual-core Krait
+ro.device.gpu=Qualcomm Adreno 225
+ro.device.rear_cam=8 MP
+ro.device.front_cam=1.9 MP
+ro.device.screen_res=720x1280
 
 # Fields For VM Heapsize
 dalvik.vm.heapsize=512m
